@@ -9,4 +9,7 @@ def main(x, y):
     Returns:
         int: the value of the expression
     """
-    return
+    answer = round((3 * pow(y, 1/2) + pow(x, 2/3)), 2)
+    return answer
+
+print(main(8, 4))
