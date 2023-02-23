@@ -9,4 +9,4 @@ def main(number):
     """
     return abs(number)
 
-print(main(-8))
+print(main(-8)) 
